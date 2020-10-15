@@ -1,0 +1,42 @@
+{
+  "name": "sub-main",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cra-template": "1.0.3",
+    "qiankun": "^2.0.26",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3",
+    "zone.js": "^0.11.1"
+  },
+  "scripts": {
+    "start": "rescripts start",
+    "build": "rescripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      "chrome > 45"
+    ],
+    "development": [
+      "chrome > 45"
+    ]
+  },
+  "rescripts": [
+    "env"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@rescripts/cli": "0.0.14",
+    "@rescripts/rescript-env": "0.0.12",
+    "babel-loader": "^8.1.0"
+  }
+}
