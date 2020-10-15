@@ -7,7 +7,6 @@ module.exports = {
     config.output.jsonpFunction = `webpackJsonp_${name}`;
     config.output.globalObject = "window";
   },
-
   devServer: (_) => {
     const config = _;
 
