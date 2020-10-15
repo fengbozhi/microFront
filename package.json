@@ -1,0 +1,36 @@
+{
+  "name": "micro-front",
+  "version": "1.0.0",
+  "description": "react angular",
+  "main": "index.js",
+  "scripts": {
+    "all:install": "npm-run-all --parallel install:*",
+    "install:reactMain": "cd sub-main && npm install",
+    "install:reactSub": "cd react-sub && npm install",
+    "install:reactSub2": "cd react-sub2 && npm install",
+    "install:angularSub": "cd angular-sub && npm install",
+    "all:start": "npm-run-all --parallel start:*",
+    "start:reactMain": "cd sub-main && npm start",
+    "start:reactSub": "cd react-sub && npm start",
+    "start:reactSub2": "cd react-sub2 && npm start",
+    "start:angularSub": "cd angular-sub && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengbozhi/microFront.git"
+  },
+  "keywords": [
+    "microFront",
+    "angular",
+    "react"
+  ],
+  "author": "fengbozhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fengbozhi/microFront/issues"
+  },
+  "homepage": "https://github.com/fengbozhi/microFront#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
