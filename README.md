@@ -14,6 +14,7 @@ $ cd microFront
 现在运行 npm 脚本来安装和运行示例项目：
 
 ```shell
+$ npm install
 $ npm run all:install
 $ npm run all:start
 ```
